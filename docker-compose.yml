@@ -1,0 +1,16 @@
+mongodb:
+    image: mongo
+
+bitbot:
+    build: .
+    links:
+        - mongodb
+    environment:
+        ENABLED: 0
+        EXCHANGE: kraken
+        PAIR: XXBTZEUR
+        ASSET: XXBT
+        CURRENCY: ZEUR
+        APIKEY: YOUR_API_KEY
+        SECRET: YOUR_SECRET
+        INDICATOR: MACD
