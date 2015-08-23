@@ -25,6 +25,9 @@ ENV SECRET ''
 #  Any indicator from the indicators folder. (MACD, PPO, PSAR)
 ENV INDICATOR 'MACD'
 
+#  candleStick Size Minutes
+ENV CANDLESTICK 30
+
 #  Database name
 ENV DATABASE 'bitbot_db'
 

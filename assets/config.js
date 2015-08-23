@@ -4,6 +4,8 @@ var config = {};
 
 //------------------------------EnableRealTrading
 config.tradingEnabled = ${ENABLED};
+//------------------------------EnableRealTrading
+
 
 //------------------------------exchangeSettings
 config.exchangeSettings = {
@@ -49,7 +51,7 @@ config.indicatorSettings = {
 	// Choices: Any indicator from the indicators folder.
 	options: {neededPeriods: 26, shortPeriods: 12, longPeriods: 26, emaPeriods: 9, buyThreshold: 0, sellThreshold: 0},
 	// Options needed for your indicator (Look them up in the indicator's file).
-	candleStickSizeMinutes: 5
+	candleStickSizeMinutes: ${CANDLESTICK}
 };
 //------------------------------IndicatorSettings
 
@@ -74,7 +76,7 @@ config.backTesterSettings = {
 //------------------------------BackTesting
 
 //------------------------------Debug
-config.debug = true;
+config.debug = false;
 //------------------------------Debug
 
 //------------------------------UserParams

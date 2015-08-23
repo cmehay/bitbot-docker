@@ -19,6 +19,7 @@ ENV_VARS = [
     'SECRET',
     'INDICATOR',
     'DATABASE',
+    'CANDLESTICK',
 ]
 
 FALSE_VAL = ['0', 'false', 'none', '']
