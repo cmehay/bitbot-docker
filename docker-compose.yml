@@ -6,11 +6,11 @@ bitbot:
     links:
         - mongodb
     environment:
-        ENABLED: 0
-        EXCHANGE: kraken
-        PAIR: XXBTZEUR
-        ASSET: XXBT
-        CURRENCY: ZEUR
-        APIKEY: YOUR_API_KEY
-        SECRET: YOUR_SECRET
-        INDICATOR: MACD
+        ENABLED: 0 # set to something true to enable trading
+        EXCHANGE: kraken # Set exchange (bitstamp, kraken, btce)
+        PAIR: XXBTZEUR # See readme of bitbot for this
+        ASSET: XXBT # See readme of bitbot for this
+        CURRENCY: ZEUR # See readme of bitbot for this
+        APIKEY: YOUR_API_KEY # Your api key
+        SECRET: YOUR_SECRET # Your secret key
+        INDICATOR: MACD # Any indicator from the indicators folder. (MACD, PPO, PSAR)
